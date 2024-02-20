@@ -1,8 +1,8 @@
 {
-  "name": "vue-element-admin",
+  "name": "deep_ops_hub",
   "version": "4.4.0",
-  "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
-  "author": "Pan <panfree23@gmail.com>",
+  "description": "DeepOpsHub is ....",
+  "author": "Pan <gilbertpan97@gmail.com>",
   "main": "main.js",
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -16,8 +16,7 @@
     "test:ci": "npm run lint && npm run test:unit",
     "start": "npm run build:stage && electron-forge start",
     "package": "npm run build:stage && electron-forge package",
-    "make": "npm run build:stage && electron-forge make",
-    "run:win": "cd ./out/vue-element-admin-win32-x64/ && vue-element-admin"
+    "make": "npm run build:stage && electron-forge make"
   },
   "dependencies": {
     "connect": "3.6.6",
@@ -95,7 +94,7 @@
     "last 2 versions"
   ],
   "bugs": {
-    "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
+    "url": "https://github.com/GilbertPan97/DeepOpsHub/issues"
   },
   "engines": {
     "node": ">=8.9",
@@ -124,6 +123,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanJiaChen/vue-element-admin.git"
+    "url": "git+https://github.com/GilbertPan97/DeepOpsHub.git"
   }
 }
